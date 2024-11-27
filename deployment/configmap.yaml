@@ -4,7 +4,7 @@ metadata:
   name: coworker-config
 data:
   DB_NAME: coworkerDB
-  DB_USER: dbuser
+  DB_USERNAME: dbuser
   DB_HOST: postgresql-service
   DB_PORT: '5432'
 ---
