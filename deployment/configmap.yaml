@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: coworker
+  name: coworker-config
 data:
   DB_NAME: coworkerDB
   DB_USER: dbuser
-  DB_HOST: 10.100.230.29
-  DB_PORT: 5432
+  DB_HOST: postgresql-service
+  DB_PORT: '5432'
 ---
 apiVersion: v1
 kind: Secret
